@@ -25,6 +25,11 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -34,25 +39,14 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">hr@akytechinc.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-      </div>
-      <div class="cta d-none d-md-block">
-        <a href="#about" class="scrollto">AKY Technologies</a>
-      </div>
-    </div>
-  </div>
+  
 
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Akytechinc</a></h1>
+  <!--     <h1 class="logo"><a href="index.html">Akytechinc</a></h1>  -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+       <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -63,152 +57,300 @@
          <li><a class="nav-link scrollto " href="#Products">Products</a></li> 
           <li><a class="nav-link scrollto " href="#Industry">Industries</a></li> 
           <li><a class="nav-link scrollto " href="#Careers">Careers</a></li> 
-          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
+          
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
     </div>
-  </header><!-- End Header -->
+  </header>
+
+
+
+<div class="row slider-row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 col-md-12">
+        <div class="laptop-screen">
+        <div class="cam-dot"></div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+
+                <img class="d-block w-100 image" src="assets/img/slide/slide1.jpeg" alt="First slide">
+                <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AkyTechnic</span></h2>
+                <p class="animate__animated animate__fadeInUp corop">From our initial days where we provided key technically skilled resources to our client teams, today we look to execute turnkey technology projects for our clients..</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 image" src="assets/img/slide/slide2.jpeg" alt="Second slide">
+                <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated fanimate__adeInDown">Industry  <span>Practices</span></h2>
+                <p class="animate__animated animate__fadeInUp corop">In order to provide clients with specialised IT solutions, Global IT Technologies has developed expertise in the Project & Portfolio Management.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 image" src="assets/img/slide/slide3.jpeg" alt="Third slide">
+                <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Services</span></h2>
+                <p class="animate__animated animate__fadeInUp corop">We provide a range of IT consulting services by leveraging our domain knowledge on latest Technologies.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+        <div class="laptop-key"></div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+
+    <!--  -->
+
+
+
+
+  <!-- ======= Header ======= -->
+<!--   <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Akytechinc</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <!-- <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+         <li><a class="nav-link scrollto " href="#Technologies">Technologies</a></li> 
+         <li><a class="nav-link scrollto " href="#Products">Products</a></li> 
+          <li><a class="nav-link scrollto " href="#Industry">Industries</a></li> 
+          <li><a class="nav-link scrollto " href="#Careers">Careers</a></li> 
+          
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header> --><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+ <!-- <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">WE PROVIDE <span class="belowline">HIGH QUALITY SERVICES</span></h2>
-          <p class="animate__animated animate__fadeInUp"><p>ON TIME BY MEETING THE CLIENT REQUIREMENTS</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+       
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>AkyTechnic</span></h2>
+                <p class="animate__animated animate__fadeInUp">From our initial days where we provided key technically skilled resources to our client teams, today we look to execute turnkey technology projects for our clients..</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated fanimate__adeInDown">Industry  <span>Practices</span></h2>
+                <p class="animate__animated animate__fadeInUp">In order to provide clients with specialised IT solutions, Global IT Technologies has developed expertise in the Project & Portfolio Management.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
+       
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Services</span></h2>
+                <p class="animate__animated animate__fadeInUp">We provide a range of IT consulting services by leveraging our domain knowledge on latest Technologies.</p>
+                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
       </div>
-
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Industry Practices</h2>
-          <p class="animate__animated animate__fadeInUp">In order to provide clients with specialised IT solutions, Aky Technologies has developed expertise in the Project & Portfolio Management.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown">Services</h2>
-          <p class="animate__animated animate__fadeInUp">We provide a range of IT consulting services by leveraging our domain knowledge on latest Technologies.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a>
-
     </div>
-  </section><!-- End Hero -->
-
+  </section>
+ -->
   <main id="main">
 
-    <!-- ======= Icon Boxes Section ======= -->
-    <section id="icon-boxes" class="icon-boxes">
+
+
+
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
       <div class="container">
 
         <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+          <div class="col-lg-4">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Insights</a></h4>
-              <p class="description">In-house research and analysis division that focuses on deriving cutting edge insights that shape the world of work and help stakeholders take the right decisions.</p>
+              <i class="bi bi-card-checklist"></i>
+              <h3><a href="">Our Vision</a></h3>
+              <p>Using technology, be a trusted partner to our stakeholders to help better their lives and achieve much more</p>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Global</a></h4>
-              <p class="description">As an organization we are capable to think globally and operate locally. Our ability to act glocal has assisted in making strong relations and collaborations with our client across the globe.
+              <i class="bi bi-bar-chart"></i>
+              <h3><a href="">Our Mission</a></h3>
+              <p>Build and implement solutions that will contribute towards a positive change in the society around us.</p>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Time management?</a></h4>
-              <p class="description">We have the process of planning and exercising conscious control of time spent on specific activities, especially to increase effectiveness, efficiency, and productivity.</p>
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Our Core Values</a></h3>
+              <p>We are a local organization with a global mindset that believes in achieving the best for all our stakeholders. 
+Our partnerships are based on trust and transparency.</p>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4 class="title"><a href="">Creating impact</a></h4>
-              <p class="description">Our Consultants, Sound leadership is crucial to drive businesses to great achievement and heights</p>
-            </div>
-          </div>
-
         </div>
 
       </div>
-    </section><!-- End Icon Boxes Section -->
+    </section><!-- End Featured Section -->
 
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
+
+  
+
+     <!-- ======= About Section ======= -->
+
+      <section id="Technologies" class="clients">
 
         <div class="section-title">
-          <h2>About Us</h2>
-          <p>Digital technology is changing every area of human existence, new frontiers are being reached and there has been no better time than now to innovate. Never as a human race have we felt so connected by the power to create something new and tackle the global challenges we all face.</p>
+          <h2>About Us </h2>
         </div>
+    <section id="about" class="about">
+      <div class="container">
 
-        <div class="row content">
+        <div class="row">
           <div class="col-lg-6">
-            <p>
-              We are a continuous learning organization with strong interests in multiple industries where we use transformational thinking and leading edge technologies to solve real challenges that give our customers a competitive advantage.
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Akytechnic is a full services IT firm that partners with clients across industries including major business verticals, government sectors and education.</h3>
+            <p class="fst-italic">
+              We have the process of planning and exercising conscious control of time spent on specific activities, especially to increase effectiveness, efficiency, and productivity.
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> We value creativity, tenacity and solving problems in a cost effective and sustainable way</li>
-              <li><i class="ri-check-double-line"></i> Our customers benefit from our breadth of experiences, professional approach and the diversity of the thinking of our people.</li>
-              <li><i class="ri-check-double-line"></i> Our company believes in taking digital steps towards tackling problems we all face.
-
-</li>
+              <li><i class="bi bi-check-circle"></i> More then a consutling we are IT connection Company</li>
+              <li><i class="bi bi-check-circle"></i> Experts in solving complex operational challanges</li>
+              <li><i class="bi bi-check-circle"></i> Allow us to optimize your IT environment like never before</li>
             </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Our people are our greatest assets, we bring our hearts, heads and hands to all we do as we drive innovation forward and create new advantages.
+              We bring the strategies and the architectures that determine modern platforms forward, permitting you to create your Product Roadmap and to build technology improvement into your business. We build long-term trusted partnerships to create a world where lives are enriched through the implementation of our idea
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 style="text-align: center;">Our Services</h2>
+          <p style="text-align: center;">We offer a wide range of customized, high-quality, talent consulting services. We are uniquely well-positioned to help address your talent needs by leveraging our know-how, relationships and service capabilities.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Application Development & Maintaince</a></h4>
+              <p>We have played key roles in the entire development life cycle from analysis, design & development, QA through implementation and post implementation support. Our teams have been instrumental in developing and leveraging multiple development frameworks and foundries to aid in these implementations</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Analytics</a></h4>
+              <p>Data has been key to the success of our clients and will continue to be so in the future. With our deep digital engagement with our Fortune 500 clients, we have partnered with them in slicing/dicing their data to glean insights into their businesses. Over the past few years, whether it comes to understanding their customers better or finding gaps in their supply chain, our teams have played a key role in helping our clients gain deep insights using predictive analytics</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Quality Assurance</a></h4>
+              <p>Working with some of our largest Fortune 500 clients, our Quality Assurance teams have gained immense expertise in both automated and manual testing.We have benefited from our extensive experience delivering projects across industries to develop knowledge about a wide variety of testing tools and platforms. Quality assurance has been a key focus area for us since inception and we continue to partner with our clients in their technology implementations.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Staffing services</a></h4>
+              <p>Over the years, our primary focus has been to find the right assignment for our team members. Our recruiters who work across industries are skilled at finding the right fit.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Enterprise & Cloud Applications</a></h4>
+              <p>We are a go-to partner for our clients Cloud solutions needs. As our clients migrate from on-premise to hybrid to eventually full cloud based hosting, our teams have been able to provide the required expertise and partner our clients in this journey.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Project and Portfolio services</a></h4>
+              <p>Project portfolio management (PPM) refers to a process used by project managers and project management organizations (PMOs) to analyze the potential return on undertaking a project.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+<!-- End About Us Section -->
 
     <!-- ======= Technologies Section ======= -->
 
@@ -242,7 +384,7 @@
 
 
 <!-- ======= Products Under Developement  ======= -->
-    <section id="Products" class="about">
+   <!--  <section id="Products" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title productstittle">
@@ -267,7 +409,7 @@
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section> --><!-- End About Us Section -->
     <!-- ======= Why Us Section ======= -->
 <!--     <section id="why-us" class="why-us">
       <div class="container-fluid">
@@ -327,7 +469,7 @@
     </section> --><!-- End Why Us Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+  <!--   <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -446,21 +588,7 @@
                         </ul>
             </div>
           </div>
-          <!--  <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon-box">
-              <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Python</a></h4>
-              <b>Full lifecycle of python services includes:</b>
-              <ul>
-                            <li>Data Extraction Applications</li>
-                            <li>Content Parsers</li>
-                            <li>Brand Management Application</li>
-                            <li>Enterprise Application Development</li>
-                            <li>Software Security Applications</li>
-                            <li>Web Portals using Django</li>
-                        </ul>
-            </div>
-          </div> -->
+       
           <div class="col-md-6 " data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <i class="bi bi-pie-chart-fill"></i>
@@ -481,7 +609,7 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> --><!-- End Services Section -->
 
 
 
@@ -767,19 +895,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>Address: 1000Route 9 North,NSuite#102,Woodbridge,NJ 07095
+                <p>Address: 6991 Evening Terrace, Lakeville, MN 55044 USA
                 </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>hr@akytechinc.com</p>
+                <p>hr@akytechinc</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+1 612 300 5700</p>
               </div>
 
             </div>
@@ -819,6 +947,7 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -914,6 +1043,17 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
